@@ -1,0 +1,60 @@
+brotlipy==0.7.0
+certifi @ file:///croot/certifi_1725551672989/work/certifi
+cffi @ file:///croot/cffi_1670423208954/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click @ file:///croot/click_1698129812380/work
+cloudpickle @ file:///croot/cloudpickle_1721657346512/work
+contourpy==1.1.1
+cryptography @ file:///croot/cryptography_1694444244250/work
+cycler==0.12.1
+cytoolz @ file:///croot/cytoolz_1701723583781/work
+dask @ file:///croot/dask-core_1683065217061/work
+fonttools==4.53.1
+fsspec @ file:///croot/fsspec_1724855583730/work
+idna @ file:///croot/idna_1666125576474/work
+imagecodecs @ file:///croot/imagecodecs_1695064943445/work
+imageio==2.31.5
+importlib-metadata @ file:///croot/importlib_metadata-suite_1704813515092/work
+importlib_resources==6.4.4
+joblib @ file:///croot/joblib_1718217211762/work
+kiwisolver==1.4.7
+locket @ file:///opt/conda/conda-bld/locket_1652903118915/work
+matplotlib==3.7.5
+mkl-fft @ file:///croot/mkl_fft_1695058164594/work
+mkl-random @ file:///croot/mkl_random_1695059800811/work
+mkl-service==2.4.0
+networkx @ file:///croot/networkx_1690561992265/work
+numpy @ file:///work/mkl/numpy_and_numpy_base_1682953417311/work
+opencv-python==4.8.0.76
+packaging==23.1
+partd @ file:///croot/partd_1698702562572/work
+Pillow==9.4.0
+protobuf==4.24.3
+psutil==6.1.1
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyOpenSSL @ file:///croot/pyopenssl_1690223430423/work
+pyparsing==3.1.4
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305779399/work
+python-dateutil==2.9.0.post0
+PyWavelets @ file:///croot/pywavelets_1670425177960/work
+PyYAML==6.0.1
+requests @ file:///croot/requests_1690400202158/work
+scikit-image @ file:///croot/scikit-image_1669241743693/work
+scikit-learn @ file:///croot/scikit-learn_1684781056615/work
+scipy==1.9.3
+six==1.16.0
+tabulate==0.9.0
+tensorboardX==2.6.2.2
+threadpoolctl @ file:///croot/threadpoolctl_1719407800858/work
+tifffile @ file:///croot/tifffile_1695107451082/work
+toolz @ file:///croot/toolz_1667464077321/work
+torch==1.11.0
+torchaudio==0.11.0
+torchinfo==1.8.0
+torchsummary==1.5.1
+torchvision==0.12.0
+tqdm==4.66.1
+typing_extensions @ file:///croot/typing_extensions_1690297465030/work
+urllib3 @ file:///croot/urllib3_1686163155763/work
+yacs==0.1.8
+zipp==3.20.1
