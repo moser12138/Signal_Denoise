@@ -76,10 +76,6 @@ def denoise_image(model, noisy_img, device='cuda', save_dir="output/denoised"):
 
 # 主程序
 def main():
-    # model_path = os.path.join(log_dir, 'best_2_1.lst.pth')
-    # model_path = os.path.join(log_dir, 'best_2_2.lst.pth')
-    # model_path = os.path.join(log_dir, 'best_2_3.lst.pth')
-    # model_path = os.path.join(log_dir, 'best_2_4.lst.pth')
     model_path = os.path.join(log_dir, 'best_2_5.lst.pth')
 
     if not os.path.exists(model_path):
@@ -90,24 +86,7 @@ def main():
     model = load_model(model_path, device='cuda')
 
     # 示例图片路径
-    # noisy_image_path = './img/11.png'  # 输入的噪声图像路径
-    # noisy_image_path = './img/12.png'  # 输入的噪声图像路径
-    # noisy_image_path = './img/13.png'  # 输入的噪声图像路径
 
-    # noisy_image_path = './img/21.png'  # 输入的噪声图像路径
-    # noisy_image_path = './img/22.png'  # 输入的噪声图像路径
-    # noisy_image_path = './img/23.png'  # 输入的噪声图像路径
-
-    # noisy_image_path = './img/31.png'  # 输入的噪声图像路径
-    # noisy_image_path = './img/32.png'  # 输入的噪声图像路径
-    # noisy_image_path = './img/33.png'  # 输入的噪声图像路径
-
-    # noisy_image_path = './img/41.png'  # 输入的噪声图像路径
-    # noisy_image_path = './img/42.png'  # 输入的噪声图像路径
-    # noisy_image_path = './img/43.png'  # 输入的噪声图像路径
-
-    # noisy_image_path = './img/51.png'  # 输入的噪声图像路径
-    # noisy_image_path = './img/52.png'  # 输入的噪声图像路径
     noisy_image_path = './img/53.png'  # 输入的噪声图像路径
     noisy_image = Image.open(noisy_image_path).convert('L')
 
